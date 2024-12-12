@@ -1,0 +1,13 @@
+.languages {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.languages-btn {
+  border: none;
+  width: 100px;
+  background-color: #2b85cf;
+  border-radius: 10px;
+}

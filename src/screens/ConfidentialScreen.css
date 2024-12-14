@@ -1,5 +1,8 @@
 .confidentiality {
   height: 100%;
-  width: 700px;
+  width: 900px;
   margin: 30px auto;
+}
+.confidentiality-text {
+  text-align: start;
 }

@@ -4,10 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Web site created using create-react-app" />
-    <title>React App</title>
+    <title>Orders</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyASSrM0qPoWRnB7lZE5-Hl98yb6Mo9XYYc",
+        authDomain: "orders-78c1c.firebaseapp.com",
+        databaseURL: "https://orders-78c1c-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "orders-78c1c",
+        storageBucket: "orders-78c1c.appspot.com",
+        messagingSenderId: "604190082036",
+        appId: "1:604190082036:web:505488318b424555daefa1",
+        measurementId: "G-3P0YBJ9FP6",
+      };
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

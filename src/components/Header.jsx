@@ -12,14 +12,17 @@ function Header() {
         <img className="header-img" alt="Logo for Orders" src={logo}></img>
       </div>
       <div className="header-menu">
-        <Link className="btn-home" to="/">
+        <Link className="btn-home" to="home">
           <h2 className="header-href">{t("home")}</h2>
         </Link>
         <Link className="btn-language" to="language">
           <h2 className="header-href">{t("language")}</h2>
         </Link>
-        <Link className="btn-confidential" to="confidential">
+        <Link className="btn-confidential" to="/">
           <h2 className="header-href">{t("confidentiality")}</h2>
+        </Link>
+        <Link className="btn-confidential" to="questions">
+          <h2 className="header-href">{t("question")}</h2>
         </Link>
       </div>
     </header>

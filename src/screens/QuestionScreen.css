@@ -1,0 +1,36 @@
+.questions {
+  height: 95%;
+  width: 900px;
+  margin: 30px auto;
+}
+.block {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question {
+  text-justify: start;
+  color: #c21d11;
+}
+.answer {
+  text-justify: start;
+}
+.question {
+  text-justify: start;
+}
+@media (max-width: 940px) {
+  .questions {
+    height: 100%;
+    width: 100%;
+    margin: 100px auto;
+  }
+}
+@media (max-width: 640px) {
+  .questions {
+    height: 100%;
+    width: 100%;
+    margin: 100px auto;
+  }
+}

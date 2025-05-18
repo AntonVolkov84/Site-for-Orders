@@ -6,6 +6,8 @@ import HomeScreen from "./screens/HomeScreen";
 import LanguageScreen from "./screens/Languagescreen";
 import NotFound from "./components/NotFound";
 import { Suspense } from "react";
+import QuestionScreen from "./screens/QuestionScreen";
+import CompareNumbersPrivacy from "./screens/CompareNumbersPrivacy";
 
 function App() {
   return (
@@ -13,10 +15,12 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
+            <Route path="compare/confidential" element={<CompareNumbersPrivacy />} />
             <Route path="/" element={<MainLayout />}>
-              <Route path="confidential" element={<ConfidentialScreen />} />
+              <Route index element={<ConfidentialScreen />} />
               <Route path="language" element={<LanguageScreen />} />
-              <Route index element={<HomeScreen />} />
+              <Route path="questions" element={<QuestionScreen />} />
+              <Route path="home" element={<HomeScreen />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

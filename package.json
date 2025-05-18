@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
     "fork-ts-checker-webpack-plugin": "^6.5.3",
     "i18next": "^24.1.0",
     "react": "^19.0.0",

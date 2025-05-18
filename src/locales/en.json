@@ -21,6 +21,10 @@
   "conf8text": "The administrator of the Orders application takes technical, organizational and legal measures to ensure protection personal data of the User from unauthorized or accidental access, destruction, modification, blocking, copying, distribution, as well as from other illegal actions.",
   "conf9title": "USER REQUESTS",
   "conf9text": "9.1. The user has the right to send his requests to the Administration of the Orders application, incl. regarding the use/deletion of his personal data, provided for in paragraph 3 of this Privacy Policy in writing to the email antvolkov84@gmail.com. The request sent by the User must contain the following information: for an individual: – number of the main document identifying the User or his representative; – information about the date of issue of the specified document and the issuing authority; – date of registration in the Orders application; – text of the request in free form. 9.2. The application administration undertakes to consider and send a response to the User's request within 30 days from the date of receipt of the request. 9.3. All correspondence received by the Administration from the User (applications in written/electronic form) refers to restricted information and is not subject to disclosure without the written consent of the User. Personal data and other information about the User who sent the request cannot be used without the special consent of the User other than to respond to the topic of the received request or in cases expressly provided for by law.",
+  "conf10title": "Objectives, principle of non-discrimination",
+  "conf10text": "10.1 Preventing and combating sexual exploitation and sexual abuse of children; 10.2 protection of the rights of child victims of sexual exploitation and sexual abuse; 10.3 development of national and international cooperation in the fight against sexual exploitation and sexual abuse of children.",
+  "conf11title": "The principle of non-discrimination",
+  "conf11text": "Measures to protect the rights of victims are ensured without any discrimination on the basis of gender, race, color, language, religion, political or other opinion, national or social origin, membership of a national minority, property status, birth, sexual orientation , health status, disability or other circumstances. If there are justified complaints or proven facts of violation of paragraph 10 of this policy, the participant is removed forever, and the administration reports his actions to the competent authorities.",
   "homeTitle": "Brief description of the application",
   "homeTitleText": "The application was developed for joint purchases. The list of what you need is always at your fingertips. All changes to the lists occur in real time. A purchase or closed position is instantly displayed to all participants (and there can be a large number of them). There is a separate button for viewing already closed positions or purchased goods, indicating the participant who marked it. You can create a list of orders in completely different ways. As we already said, this could be a list of joint purchases, organizing any event divided into stages, setting tasks for the team with the opportunity to see as a result who completed what. If an Order is created without a number of participants, then it appears only to the creator. This way you can create a personal to-do list. If you decide to add a member at some point, you can always do so. And, again, Order will instantly appear with a new person. The program is completely free.",
   "instruction1Title": "1. Menu for adding possible participants",
@@ -39,7 +43,7 @@
   "instruction7Text": "You enter the name of the item, case or product you need. Next to it is the quantity menu. The last button creates a position in a future order",
   "instruction8Title": "8. Delete position button",
   "instruction8Text": "A short press deletes the position",
-  "instruction9Title": "9. Создание закCreate an orderаза",
+  "instruction9Title": "9. Create an order",
   "instruction9Text": "An order will not be created if it does not contain at least one item",
   "2instruction1Title": "1. Nickname change button",
   "2instruction1Text": "Clicking takes you to a window where you can change your nickname",
@@ -64,5 +68,9 @@
   "3instruction6Title": "6. Add participant button",
   "3instruction6Text": "Once an order with members has already been created, you may need to add someone else. Any participant in the order can add. You cannot remove members at this time.",
   "3instruction7Title": "7. Purchased/Completed button",
-  "3instruction7Text": "Shows all already closed positions. Those on which the button number 5 is pressed"
+  "3instruction7Text": "Shows all already closed positions. Those on which the button number 5 is pressed",
+  "homeImageUrl": "../OrderScreen.png",
+  "question": "Questions",
+  "question1": "1. How to delete an account or data",
+  "answer1": "You can contact us by email at antvolkov84@gmail.com, the actions you require are indicated in accordance with paragraph 9 of this Privacy Policy. After consideration of your application, your data will be completely or partially deleted"
 }

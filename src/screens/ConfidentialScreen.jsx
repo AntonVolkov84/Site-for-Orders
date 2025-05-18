@@ -25,6 +25,10 @@ function ConfidentialScreen() {
       <p className="confidentiality-text">{t("conf8text")}</p>
       <h4>9. {t("conf9title")}</h4>
       <p className="confidentiality-text">{t("conf9text")}</p>
+      <h4>10. {t("conf10title")}</h4>
+      <p className="confidentiality-text">{t("conf10text")}</p>
+      <h4>11. {t("conf11title")}</h4>
+      <p className="confidentiality-text">{t("conf11text")}</p>
     </div>
   );
 }

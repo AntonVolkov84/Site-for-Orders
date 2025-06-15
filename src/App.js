@@ -17,7 +17,7 @@ function App() {
         <div className="App">
           <Routes>
             <Route path="compare/confidential" element={<CompareNumbersPrivacy />} />
-            <Route path="comparecountry/confidential" element={<CompareCountry />} />
+            <Route path="combinecountry/confidential" element={<CompareCountry />} />
             <Route path="/" element={<MainLayout />}>
               <Route index element={<ConfidentialScreen />} />
               <Route path="language" element={<LanguageScreen />} />

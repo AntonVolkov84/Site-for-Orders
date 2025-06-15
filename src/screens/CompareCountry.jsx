@@ -1,14 +1,14 @@
 import React from "react";
-import "./CompareNumbersPrivacy.css";
-import logo from "../Dance.png";
+import "./CompareCountry.css";
+import logo from "../Combine country.png";
 
-function CompareNumbersPrivacy() {
+function CompareCountry() {
   return (
     <div className="privacy-wrapper">
-      <img className="logo" src={logo} alt="Logo of Combine numbers"></img>
+      <img className="logo" src={logo} alt="Logo of Combine counry"></img>
       <strong className="title">Privacy Policy</strong>
       <p>
-        This privacy policy applies to the Combine numbers app (hereby referred to as "Application") for mobile devices
+        This privacy policy applies to the Combine country app (hereby referred to as "Application") for mobile devices
         that was created by (hereby referred to as "Service Provider") as a Free service. This service is intended for
         use "AS IS".
       </p>
@@ -111,4 +111,4 @@ function CompareNumbersPrivacy() {
   );
 }
 
-export default CompareNumbersPrivacy;
+export default CompareCountry;

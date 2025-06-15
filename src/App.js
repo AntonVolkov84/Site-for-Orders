@@ -8,6 +8,7 @@ import NotFound from "./components/NotFound";
 import { Suspense } from "react";
 import QuestionScreen from "./screens/QuestionScreen";
 import CompareNumbersPrivacy from "./screens/CompareNumbersPrivacy";
+import CompareCountry from "./screens/CompareCountry";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div className="App">
           <Routes>
             <Route path="compare/confidential" element={<CompareNumbersPrivacy />} />
+            <Route path="comparecountry/confidential" element={<CompareCountry />} />
             <Route path="/" element={<MainLayout />}>
               <Route index element={<ConfidentialScreen />} />
               <Route path="language" element={<LanguageScreen />} />

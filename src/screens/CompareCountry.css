@@ -1,0 +1,11 @@
+.privacy-wrapper {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 400px;
+  aspect-ratio: 1;
+  margin: 10px auto;
+}
